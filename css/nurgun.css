@@ -1,0 +1,455 @@
+.col-img{
+    display: flex;
+    flex-direction: column;
+}
+.logo-first{
+    width: 9%;
+}
+h1{
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 700;
+    line-height: 101.38%;
+    /* or 81px */
+}
+.showcase-text p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+.nurgun-second-section h1{
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 700;
+    line-height: 101.38%;
+}
+.nurgun-second-section p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+.card-blue p{
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+section{
+    margin-bottom: 175px;
+}
+h2{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+}
+.facts{
+    display: flex;
+    align-items: center;
+}
+ul li{
+    display: inline-block;
+}
+.card-blue{
+    background: #1E4681;
+    border-radius: 5px;
+    color: white;
+}
+.card-blue p:last-of-type{
+    font-family: 'Roboto';
+
+}
+.row{
+    align-items: center;
+}
+.z{
+    position: relative;
+    z-index: -1;
+}
+/* mobile start */
+@media (min-width:320px) and (max-width:991px) {
+    .man-first img{
+        width: 141.68px;
+        height: 175.1px;
+    }
+    .logo-first img{
+        width: 52.19px;
+        height: 30.75px;
+        margin-top: 36px;
+        margin-bottom: 45px;
+
+    }
+    .row{
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        justify-content: start;
+    }
+    .man-first {
+        align-self: flex-end;
+    }
+    .man-first img{
+        margin-left: 54px;
+    }
+    .nurgun-second-section .col-img{
+        align-self: center;
+    }
+    .row:first-of-type{
+        align-items: flex-start;
+    }
+    .card-blue{
+        margin-left: 1px;
+    }
+    .showcase{
+        margin-top: 8.06px ;
+    }
+    .showcase img:last-of-type{
+        width: 127.68px;
+        height: 19.1px;
+    }
+    .showcase-text p, li a{
+        font-size: 10px;
+    }
+    .nurgun-second-section h1{
+        font-size: 37px;
+    }
+    .nurgun-second-section p {
+        font-size: 10px;
+    }
+    li img{
+        width: 10.25px;
+        height: 9.79px;
+    }
+    .link{
+        margin-bottom: 8.06px;
+    }
+    .link li{
+        margin-right: 11.56px;
+    }
+    .showcase h1{
+       padding-bottom: 12px;
+       font-size: 37px;
+    }
+    .showcase p{
+        font-size: 10px;
+    }
+    .showcase{
+        margin-bottom: 47.86px;
+    }
+    .card-blue{
+        width: 225.36px;
+        height: 93.19px;
+        border-radius: 2.32986px;
+        padding: 10px 10px 2px 10px
+
+    }
+    .card-blue p {
+        margin-top: 3px;
+        font-size: 11px;
+        
+    }
+    .card-blue p:last-of-type{
+        font-family: 'Roboto';
+        font-size: 20px;
+        font-size: 10px;
+        padding: 0px 2px 0px 13px;
+        margin-left: 87.07px;
+        margin-top: 12px;
+    }
+    /* o-kurse section */
+    .nurgun-second-section h1{
+ 
+        font-size: 26px;
+        margin-bottom: 8.39px;
+        
+    }
+    .nurgun-second-section img:first-of-type{
+        margin-top: 56px;
+        width: 146.32px;
+        height: 146.78px;
+    }
+    .nurgun-second-section img:nth-of-type(2){
+        width: 170.55px;
+        height: 27.49px;
+    }
+    .facts img:nth-of-type(1){
+        display: none;
+    }
+    .facts img:last-of-type{
+       display: none;
+    }
+    .z{
+        bottom: 20px;
+    }
+    .facts{
+        margin-top: 64px;
+        flex-direction: revert;
+        display: flex;
+        flex-direction: row;  
+    }
+    .mini p{
+        width: 70%;
+        margin-bottom: 33px;
+    }
+    .mini{
+        width: 50%;
+    }
+    h2{
+        width: 69.9px;
+        height: 18.17px;
+        font-size: 12px;
+    }    
+    .facts{
+        flex-wrap: wrap;
+        align-items: center;
+    }
+     section.nurgun-second-section > div > div.facts.row > div:nth-child(4) > p{
+        width: 50%;
+    }
+    section.nurgun-second-section.nurgun-second-section > div > div.intro-first-first.row{
+        flex-direction: column;
+    }
+    .showcase{
+        flex-direction: column !important;
+    }
+    .showcase div:first-of-type{
+        width: 90%;
+    }
+    .showcase div:nth-of-type(2){
+        width: 70%;
+    }
+    .o-kurse{
+        margin-bottom: 20px;
+    }
+    
+}
+/* mobile end */
+
+
+/* tablet starts */
+@media (min-width:992px) and (max-width:1279px) {
+    .man-first img{
+        width: 176.07px;
+        height: 206.18px;
+        
+    }
+    .showcase{
+        margin-top: 0px ;
+    }
+    .showcase img:last-of-type{
+        width: 158.69px;
+        height: 23.75px;
+    }
+    .showcase-text{
+        width: 50%;
+    }
+    .showcase-text p, li a{
+        font-size: 12px;
+    }
+    .nurgun-second-section h1{
+        font-size: 46px;
+    }
+    .nurgun-second-section p {
+        font-size: 12px;
+    }
+    li img{
+        width: 12.74px;
+        height: 12.16px;
+    }
+    .nurgun-first-section{
+        margin-top: 22px;
+    }
+    .logo-first{
+        margin-bottom: 57.92px;
+        width: 64.87px;
+        height: 38.23px;
+    }
+    .link{
+        margin-bottom: 7.53px;
+    }
+    .link li{
+        margin-right: 15px;
+    }
+    .showcase h1{
+       padding-bottom: 12px;
+       font-size: 46px;
+    }
+    .showcase p{
+
+        font-size: 12px;
+    }
+    .showcase{
+        margin-bottom: 102.92px;
+    }
+    .showcase-text{
+        margin-right: 180.46px;
+    }
+    .card-blue{
+        width: 280.11px;
+        height: 115.83px;
+        padding: 11px 15px 30px 15px;
+        margin-left: 237.1px;
+    }
+    .card-blue p {
+        margin-top: 1px;
+        font-size: 14px;
+        
+    }
+    .card-blue p:last-of-type{
+        font-family: 'Roboto';
+        font-size: 20px;
+        font-size: 12px;
+        padding: 0px 2px 0px 13px;
+        margin-left: 108.22px;
+    }
+    /* o-kurse section */
+    .nurgun-second-section h1{
+        font-size: 32px;
+        margin-bottom: 10.42px;
+        
+    }
+    .nurgun-second-section img:first-of-type{
+        width: 181.86px;
+        height: 182.44px;
+    }
+    .nurgun-second-section img:nth-of-type(2){
+        width: 211.98px;
+        height: 34.17px;
+    }
+    .facts img:nth-of-type(1){
+        width: 134.37px;
+        height: 117.57px;
+        margin-right: 76.45px;
+    }
+    .facts img:last-of-type{
+        width: 109.46px;
+        height: 18.53px;
+    }
+    .intro-text{
+        width: 383.41px;
+        margin-right: 110px;
+    }
+    .z{
+        bottom: 20px;
+    }
+    .facts{
+        margin-top: 100px;
+    }
+    h2{
+
+        font-size: 15px;
+    }
+    .fact-two{
+        width: 50%;
+        display: flex;
+        justify-content: space-around;
+    }
+    .facts-img{
+        width: 20%;
+        margin-right: 94px;
+    }
+    .mini p{
+        width: 70%;
+    }
+}
+/* tablet end */
+
+
+/* desktop start */
+@media (min-width:1280px) {
+    .man-first img{
+        width: 304px;
+    }
+   
+    .showcase-text p, li a{
+        font-size: 20px;
+    }
+    .nurgun-second-section h1{
+        font-size: 55px;
+    }
+    .nurgun-second-section p {
+        font-size: 24px;
+    }
+    .nurgun-first-section{
+        margin-top: 21px;
+    }
+    .logo-first{
+        margin-bottom: 100px;
+    }
+    .link{
+        margin-bottom: 30px;
+    }
+    .link li{
+        margin-right: 25px;
+    }
+    .showcase h1{
+       padding-bottom: 25px;
+       font-size: 80px;
+    }
+    .showcase p{
+        font-size: 20px;
+    }
+    .showcase{
+        margin-bottom: 177.62px;
+        
+    }
+    .showcase-text{
+        margin-right: 176px;
+    }
+    .card-blue{
+        width: 483.63px;
+        height: 200px;
+        padding: 19px 27px 67px 26px;
+        margin-left: 409.39px;
+    }
+    .card-blue p {
+        font-size: 25px;
+        color: white;
+    }
+    .card-blue p:last-of-type{
+        font-family: 'Roboto';
+        font-size: 20px;
+        margin-left: 207.61px;
+    }
+    /* o-kurse section */
+    .nurgun-second-section h1{
+        margin-bottom: 18px;
+    }
+    .intro-text{
+        margin-right: 190px;
+    }
+    .z{
+        bottom: 20px;
+    }
+    .o-kurse h1{
+        padding-bottom: 18px;
+    }
+    .facts{
+        margin-top: 180px;
+    }
+    h2{
+        margin-bottom: 1px;
+    }
+    .facts div{
+        margin-right: 94px;
+    }
+    .showcase-text{
+        width: 50%;
+        margin-bottom: 100px;
+    }
+    .showcase{
+        justify-content: space-between;
+    }
+    .o-kurse h1{
+        padding-bottom: 18px;
+    }
+    
+
+}
+/* desktop end */
